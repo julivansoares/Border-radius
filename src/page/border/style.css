@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     font-family: 'Rubik', sans-serif;
+
 }
 
 
@@ -14,15 +15,26 @@
 .sub-container {
     position: relative;
     background: #ebeefa;
-    border: 2px solid #ffffff;
+    border: 2px solid #f31212;
     padding: 44px 40px 20px 40px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 500px;
-    height: 280px;
+    width: 530px;
+    height: 340px;
+    margin-top: 90px;
 }
+
+.sub-container .txt-area textarea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 430px;
+    height: 240px;
+    resize: none;
+}
+
 
 .sub-container #BorderTopLeft input {
     position: relative;
@@ -30,8 +42,8 @@
     color: white;
     border: 1px solid rgb(41, 122, 89);
     display: flex;
-    margin-right: 570px;
-    margin-top: -125px;
+    margin-right: 590px;
+    margin-top: -46px;
     width: 30px;
     text-align: center;
     font-size: 17px;
@@ -44,11 +56,10 @@
     border: 1px solid rgb(41, 122, 89);
     display: flex;
     text-align: center;
-    margin-top: 133px;
-    margin-left: -300px;
+    margin-top: 270px;
+    margin-left: -310px;
     width: 30px;
     font-size: 17px;
-
 }
 
 
@@ -58,8 +69,8 @@
     color: white;
     border: 1px solid rgb(41, 122, 89);
     display: flex;
-    margin-left: 272px;
-    margin-top: -124px;
+    margin-left: 281px;
+    margin-top: -45px;
     width: 30px;
     text-align: center;
     font-size: 17px;
@@ -74,9 +85,36 @@
     border: 1px solid rgb(41, 122, 89);
     display: flex;
     text-align: center;
-    margin-top: 133px;
-    margin-left: 272px;
+    margin-top: 271px;
+    margin-left: 281px;
     width: 30px;
     font-size: 17px;
+}
 
+.sub-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 13px;
+    border: 1px solid red;
+    width: 200px;
+}
+
+.sub-area label {
+    color: #f31212;
+    font-size: 15px;
+    margin-right: 6px;
+    color: #393939;
+}
+
+
+h1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-bottom: 35pc;
+    font-size: 20px;
+    font: 50px 'Lucida Grande', Arial, sans-serif;
+    color: #437e5a;
+    margin-top: 160px;
 }

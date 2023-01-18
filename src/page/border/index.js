@@ -3,31 +3,36 @@ import './style.css';
 
 function BorderRadius() {
   return (
+
+
     <div className='container'>
+
+      <h1>Border Radius</h1>
+
       <div className='sub-container' >
 
         <div id='BorderTopLeft' >
-          <input type='text' id='BorderTopLeft' value='0'></input>
+          <input type="text" id='BorderTopLeft' value="0"></input>
         </div>
 
         <div id='BorderTopRight'>
-          <input type='text' id='BorderTopRight' value='0'></input>
+          <input type="text" id='BorderTopRight' value="0"></input>
         </div>
 
         <div id='BorderBottomLeft'>
-          <input type='text' id='BorderBottomLeft' value='0'></input>
+          <input type="text" id='BorderBottomLeft' value="0"></input>
         </div>
 
         <div id='BorderBottomRight'>
-          <input type='text' id='BorderBottomLeft' value='0'></input>
+          <input type="text" id='BorderBottomLeft' value="0"></input>
         </div>
 
-        <div className='txt'>
+        <div className='txt-area'>
           <textarea id='texto' readOnly='readonly'>
           </textarea>
         </div>
 
-        <div>
+        <div className='sub-area'>
           <input type='checkbox' id='webkit'></input>
           <label for='webkit'>Webkit</label>
 
@@ -40,6 +45,7 @@ function BorderRadius() {
 
 
       </div>
+
 
     </div>
   );
